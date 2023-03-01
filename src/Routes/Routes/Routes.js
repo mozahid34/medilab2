@@ -1,6 +1,6 @@
 import LogIn from "../../LogIn/LogIn";
 import About from "../../Pages/About/About";
-import Appoint from "../../Pages/Appointment/Appoint";
+import RootAppoint from "../../Pages/Appointment/Root/RootAppoint";
 import Contact from "../../Pages/Contact/Contact";
 import Review from "../../Pages/Review/Review";
 
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/appoint',
-                element: <Appoint></Appoint>
+                element: <RootAppoint></RootAppoint>
             },
             {
                 path: '/review',
