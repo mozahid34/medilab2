@@ -30,6 +30,7 @@ const AvailableAppoint = ({format}) => {
                 <Bookingmodal
                     treatment={treatment}
                     setTreatment={setTreatment}
+                    Bookingdate={format}
                 ></Bookingmodal>
                 }
             </div>

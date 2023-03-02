@@ -15,7 +15,9 @@ const Slot = ({Option, setTreatment}) => {
     <p> {slots.length} {slots.length > 1 ?"Slots" : "Slot"} Available</p>
     <div className="card-actions mx-auto">
      
-     <label htmlFor="my-modal-3" className="btn btn-sm btn-primary" onClick={() => setTreatment(Option) } >Book Appointment</label>
+
+    <label htmlFor="my-modal-3"  className={slots.length === 0 ? 'btn btn-sm btn-disabled' : 'btn btn-sm btn-primary '} onClick={() => setTreatment(Option) } >Book Appointment</label>
+    
     </div>
   </div>
 </div>
