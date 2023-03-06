@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../Contexts/AuthProvider';
 
 const Header = () => {
+  const {user} = useContext(AuthContext)
+  console.log(user);
     const menuItem = <>
         <li>
        <Link to='/' >Home</Link>
@@ -43,7 +46,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-      <Link to='/logIn' className='btn'>LogIn</Link>
+      <Link to='/logIn' className='btn'> { user?.email ? "Sign Out" : "Log In" } </Link>
   </div>
 </div>
         </div>
