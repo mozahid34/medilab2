@@ -4,7 +4,8 @@ import { AuthContext } from '../../../Contexts/AuthProvider';
 
 const Header = () => {
   const {user} = useContext(AuthContext)
-  console.log(user);
+  const email = user?.email;
+  console.log(email);
     const menuItem = <>
         <li>
        <Link to='/' >Home</Link>
@@ -46,7 +47,8 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-      <Link to='/logIn' className='btn'> { user?.email ? "Sign Out" : "Log In" } </Link>
+      <Link to='dashboard' className=' hidden lg:block lg:mx-4 '>Dashboard</Link>
+      <Link to='/logIn' className='btn'> { user?.uid ? "Sign Out" : "Log In" } </Link>
   </div>
 </div>
         </div>
