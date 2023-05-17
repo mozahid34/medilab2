@@ -1,7 +1,16 @@
 [
     {
       "_id": 1,
-      "name": "Teeth Orthodontics",
+      "name": "Cardiologist",
+      "doctors": [
+        "Dr. Andy Alex",
+        "Dr. Mohiuddin Sarkar",
+        "Dr. Noren Helli",
+        "Dr. Bostam Maizedi",
+        "Dr. Loren Jems",
+        "Dr.Romania Tahsan"
+        
+      ],
       "slots": [
         "08.00 AM - 08.30 AM",
         "08.30 AM - 09.00 AM",
@@ -23,7 +32,15 @@
     },
     {
       "_id": 2,
-      "name": "Cosmetic Dentistry",
+      "name": "Neurologist",
+      "doctors": [
+        "Dr.Neuman Hex",
+        "Dr.Mohibur Rahman",
+        "Dr. Qazi Deen Mohammad",
+        "Dr. Gazi Akmol",
+        "Dr. Jebin Sharamin Ara"
+        
+      ],
       "slots": [
         "08.00 AM - 08.30 AM",
         "08.30 AM - 09.00 AM",
@@ -45,7 +62,15 @@
     },
     {
       "_id": 3,
-      "name": "Teeth Cleaning",
+      "name": "Ophthalmologist",
+      "doctors": [
+        "Dr.Imure Sraban",
+        "Dr.Mike hasinn",
+        "Dr. Asif Jordan",
+        "Dr. Halimuzzaman",
+        "Dr. Nuri R Hesen"
+        
+      ],
       "slots": [
         "08.00 AM - 08.30 AM",
         "08.30 AM - 09.00 AM",
@@ -67,7 +92,15 @@
     },
     {
       "_id": 4,
-      "name": "Cavity Protection",
+      "name": "Nephrologist",
+      "doctors": [
+        "Dr. Numera Qazi",
+        "Dr. Oman Joe",
+        "Dr. Zeel Qool",
+        "Dr. Hamdani Seikh",
+        "Dr. Ruman Ara Batty"
+        
+      ],
       "slots": [
         "08.00 AM - 08.30 AM",
         "08.30 AM - 09.00 AM",
@@ -89,13 +122,31 @@
     },
     {
       "_id": 5,
-      "name": "Pediatric Dental",
+      "name": "Dentist",
+      "doctors": [
+        "Dr. Tumera Ahri",
+        "Dr. Suleman Paul",
+        "Dr. Tammana Tahsin Toma",
+        "Dr. ",
+        "Dr. Jebin Sharamin Ara"
+        
+      ],
       "slots": [
       ]
     },
     {
       "_id": 6,
-      "name": "Oral Surgery",
+      "name": "Surgery",
+      "doctors": [
+        "Dr. Ali Asghor Al Qudse Pathan Al Usman Ibn Jahan",
+        "Dr. Hasan Jameei",
+        "Dr. Hasibur Rahman",
+        "Dr. Qazi Mike",
+        "Dr. Herouddin Al Ansari",
+        "Dr. Fue Fay Fex",
+        "Dr. Ali Asghor Al Qudse Pathan Al Usman Ibn Jahan"
+        
+      ],
       "slots": [
         "08.00 AM - 08.30 AM",
         "08.30 AM - 09.00 AM",

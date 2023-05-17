@@ -2,17 +2,18 @@ import React from 'react';
 // import ButtonComponet from '../../Component/ButtonComponet';
 
 const Slot = ({Option, setTreatment}) => {
-    const {name, slots} = Option;
+    const {name,  doctors, slots} = Option;
     
     return (
         <div>
             <div>
-            <div className="card h-48 shadow-2xl">
-  <div className="card-body mx-auto">
-    <h1 className="card-title text-center">{name}</h1>
+            <div className="card h-60 shadow-2xl">
+  <div className="card-body">
+    <h1 className="card-title text-center mx-auto">{name}</h1>
+    <p className='text-xl'>{doctors[0]}</p>
     <p>{slots[0]}</p>
     
-    <p> {slots.length} {slots.length > 1 ?"Slots" : "Slot"} Available</p>
+    <p> {slots.length > 1 ? slots.length : "No"} {slots.length > 1 ?"Slots" : "Slot"} Available</p>
     <div className="card-actions mx-auto">
      
 

@@ -1,9 +1,10 @@
 import React from 'react';
+import Services from '../Service/ServicesData/Services';
 
 const Review = () => {
     return (
         <div>
-            <h1>This Review</h1>
+           <Services></Services>
         </div>
     );
 };

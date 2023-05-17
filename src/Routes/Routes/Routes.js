@@ -3,6 +3,7 @@ import About from "../../Pages/About/About";
 import RootAppoint from "../../Pages/Appointment/Root/RootAppoint";
 import Contact from "../../Pages/Contact/Contact";
 import Dashboard from "../../Pages/Dashboard/Dashboard/Dashboard";
+import NotFound from "../../Pages/NotFound/NotFound";
 import Review from "../../Pages/Review/Review";
 import SignUp from "../../Pages/SignUp/SignUp";
 import PrivateRoutes from "../PrivateRoute/PrivateRoutes";
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
                 element: <RootAppoint></RootAppoint>
             },
             {
-                path: '/review',
+                path: '/services',
                 element: <Review></Review>
             },
             {
@@ -49,8 +50,14 @@ const router = createBrowserRouter([
                 path: '/dashboard',
                 element: <PrivateRoutes> <Dashboard></Dashboard> </PrivateRoutes>
             },
+           
 
-        ]
+        ],
+        
+    },
+    {
+        path: '*',
+        element: <NotFound></NotFound>
     }
 ])
 

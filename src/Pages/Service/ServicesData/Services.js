@@ -1,30 +1,30 @@
 import React from 'react';
-import fluoride from '../../../assets/images/fluoride.png';
-import cavity from '../../../assets/images/cavity.png';
-import Whitening from '../../../assets/images/whitening.png';
+import Cardiology from '../../../assets/images/cardio.png';
+import Neurology from '../../../assets/images/neoro.png';
+import EyeCare from '../../../assets/images/eye.png';
 import ServiceItem from '../ServiceItem/ServiceItem';
 
 const Services = () => {
     const serviceData = [
         {
             id:1,
-            name: "Fluoride Treatmen",
+            name: "Cardiology",
             description:"Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the",
-            logo: fluoride ,
+            logo: Cardiology,
 
         },
         {
             id:2,
-            name: "Cavity Filling",
+            name: "Neurology",
             description:"Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the",
-            logo: cavity ,
+            logo: Neurology,
 
         },
         {
             id:3,
-            name: "Teeth Whitening",
+            name: "Eye care",
             description:"Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the",
-            logo:Whitening,
+            logo:EyeCare,
 
         },
     ]

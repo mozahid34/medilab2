@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Bookingmodal = ({treatment, Bookingdate, setTreatment}) => {
-    const {name, slots} = treatment;
+    const {name, slots, doctors} = treatment;
     const handleSubmit = (event) => {
         event.preventDefault()
         const form = event.target;
@@ -38,6 +38,13 @@ const Bookingmodal = ({treatment, Bookingdate, setTreatment}) => {
           <h3 className="text-lg font-bold">{name}</h3>
           <form onSubmit={handleSubmit} className='grid grid-cols-1 gap-6 mt-4 '>
           <input type="text" disabled name='date' value={Bookingdate} className="input input-bordered mx-auto w-full max-w-xs" />
+          <select className="select select-info w-full mx-auto max-w-xs">
+        
+          {
+              doctors.map(doc => <option value={doc}> {doc}</option> )
+          }
+        
+      </select>
           <select className="select select-info w-full mx-auto max-w-xs">
         
           {
